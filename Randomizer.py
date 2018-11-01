@@ -1,3 +1,5 @@
+# (Python 3.6.5)
+
 import copy
 import random 
 from itertools import chain
