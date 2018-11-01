@@ -1,11 +1,3 @@
-"""
-Created on Sat Oct 20 16:12:54 2018
-
-@author: timur
-"""
-
-
-
 import copy
 import random 
 from itertools import chain
