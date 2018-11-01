@@ -4,6 +4,8 @@ Created on Sat Oct 20 16:12:54 2018
 @author: timur
 """
 
+
+
 import copy
 import random 
 from itertools import chain
@@ -13,8 +15,6 @@ import pandas as pd
 import numpy as np
 import networkx as nx
 import matplotlib.pyplot as plt 
-
-#os.chdir("/home/timur/Desktop/Анализ Сетей Школа")
 
 def Random_rewiring_brute_force(G, L, r=5): 
     # Код функции предоставил Поспелов Никита Андреевич
