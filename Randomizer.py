@@ -1,4 +1,5 @@
-# (Python 3.6.5)
+# Spyder 3.2.8 (IPython 6.4.0), Anaconda Inc. (Python 3.6.5)
+
 
 import copy
 import random 
@@ -21,7 +22,7 @@ def Random_rewiring_brute_force(G, L, r=5):
     i=0
     #previous_text = ''
 
-    #print len(set(L).intersection(List_of_edges))
+    #print (len(set(L).intersection(List_of_edges)))
     while i < Number_of_rewired_edge_pairs:
         Edge_index_1 = random.randint(0, Number_of_edges-1)
         Edge_index_2 = random.randint(0, Number_of_edges-1)
@@ -49,7 +50,7 @@ def Random_rewiring_brute_force(G, L, r=5):
                 print (G.has_edge(Node_A, Node_B))
                 print ((Node_A, Node_B), 'connection not in graph' )
                 print (L.index((Node_A, Node_B)))
-                #print List_of_edges.index((Node_A, Node_B))
+                #print (List_of_edges.index((Node_A, Node_B)))
 
             try:
                 try:
