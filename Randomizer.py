@@ -1,5 +1,6 @@
 # Spyder 3.2.8 (IPython 6.4.0), Anaconda Inc. (Python 3.6.5)
 
+# Задача описана в README.md
 
 import copy
 import random 
